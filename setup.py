@@ -8,6 +8,9 @@ setup(name='stockgo',
       author_email='yujiangallen@126.com',
       license='MIT',
       packages=['stockgo'],
+      entry_points = {
+              'console_scripts':['stockgo-joke=stockgo.command_line:main'],
+              },
       install_requires=[
           'markdown','numpy'
       ],
