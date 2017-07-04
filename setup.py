@@ -9,6 +9,6 @@ setup(name='stockgo',
       license='MIT',
       packages=['stockgo'],
       install_requires=[
-          'markdown',
+          'markdown','numpy'
       ],
       zip_safe=False)
